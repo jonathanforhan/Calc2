@@ -1,4 +1,4 @@
-# <p style="text-align: center;"> Section 4.6 </p>
+# Section 4.6
 
 ### 15. $f(x)=\int\cos(4x)dx$
 
