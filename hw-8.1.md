@@ -23,13 +23,13 @@
 
 - $\lim\limits_{b\to\infty}[\frac5{x*\ln(x)^2}]\Big|_{e}^{b}$
 
-- $\lim\limits_{b\to\infty}(-5\ln(b) + 5\ln(e))$
+- $\lim\limits_{b\to\infty}(-\frac5{\ln(b)} + \frac5{\ln(e)})$
 
-- $-\infty + 5 = -\infty$
+- $0 + 5 = 5$
 
 **Answer:**
 
-- $\int_{e}^{\infty}\frac5{x*\ln(x)^2}\space dx \space \textrm{diverges}$
+- $\int_{e}^{\infty}\frac5{x*\ln(x)^2}\space dx \space \textrm{converges to 5}$
 
 ---
 
@@ -85,5 +85,174 @@
 **Answer:**
 
 - $\int_{0}^{\infty}\frac{x}{1+x^2}\space dx \space \textrm{diverges}$
+
+---
+
+### 7. $\int_{3}^{\infty}\frac{1}{x-2}\space dx$
+
+- $u = x-2$
+- $du = 1$
+- $\int (u)^{-1} du$
+- $F(x) = \ln|x-2| +C$
+
+- $\lim\limits_{b\to\infty}[\frac{1}{x-2}]\Big|_{3}^{b}$
+
+- $\lim\limits_{b\to\infty}(\ln|b-2| - \ln|3-2|)$
+
+- $\infty - 0 = \infty$
+
+**Answer:**
+
+- $\int_{0}^{\infty}\frac{1}{x-2}\space dx \space \textrm{diverges}$
+
+---
+
+### 8. $\int_{3}^{\infty}\frac{1}{(x-2)^2}\space dx$
+
+- $u = x-2$
+- $du = 1$
+- $\int (u)^{-2} du$
+- $F(x) = -(x-2)^{-1} +C$
+
+- $\lim\limits_{b\to\infty}[\frac{1}{(x-2)^{2}}]\Big|_{3}^{b}$
+
+- $\lim\limits_{b\to\infty}(-\frac1{b-2} + \frac1{3-2})$
+
+- $0 + 1 = 1$
+
+**Answer:**
+
+- $\int_{3}^{\infty}\frac{1}{(x-2)^2}\space dx \space \textrm{converges to 1}$
+
+---
+
+### 9. $\int_{3}^{\infty}\frac{1}{(x-2)^3}\space dx$
+
+- $u = x-2$
+- $du = 1$
+- $\int (u)^{-3} du$
+- $F(x) = -\frac12(x-2)^{-2} +C$
+
+- $\lim\limits_{b\to\infty}[\frac{1}{(x-2)^{3}}]\Big|_{3}^{b}$
+
+- $\lim\limits_{b\to\infty}(-\frac12(b-2)^{-2} +\frac12(3-2)^{-2})$
+
+- $0 + \frac12 = \frac12$
+
+**Answer:**
+
+- $\int_{3}^{\infty}\frac{1}{(x-2)^3}\space dx \space \textrm{converges to }\frac12$
+
+---
+
+### 13. $\int_{0}^{4}\frac{1}{\sqrt{x}}\space dx$
+
+- $\int x^{-1/2} dx$
+- $F(x) = 2x^{1/2} +C$
+
+- $\lim\limits_{b\to0}[\frac{1}{\sqrt{x}}]\Big|_{0}^{4}$
+
+- $\lim\limits_{b\to0}(2(4)^{1/2} - 2(0)^{1/2})$
+
+- $4 - 0 = 4$
+
+**Answer:**
+
+- $\int_{0}^{4}\frac{1}{\sqrt{x}}\space dx \space \textrm{converges to 4}$
+
+---
+
+### 14. $\int_{0}^{8}\frac{1}{^3\sqrt{x}}\space dx$
+
+- $\int x^{-1/3} dx$
+- $F(x) = \frac32x^{2/3} +C$
+
+- $\lim\limits_{b\to0}[\frac{1}{^3\sqrt{x}}]\Big|_{0}^{8}$
+
+- $\lim\limits_{b\to0}(\frac32(8)^{2/3} - \frac32(0)^{2/3})$
+
+- $6 - 0 = 6$
+
+**Answer:**
+
+- $\int_{0}^{8}\frac{1}{^3\sqrt{x}}\space dx \space \textrm{converges to 6}$
+
+---
+
+### 15. $\int_{0}^{16}\frac{1}{^4\sqrt{x}}\space dx$
+
+- $\int x^{-1/4} dx$
+- $F(x) = \frac43x^{3/4} +C$
+
+- $\lim\limits_{b\to0}[\frac{1}{^4\sqrt{x}}]\Big|_{0}^{16}$
+
+- $\lim\limits_{b\to0}(\frac43(16)^{3/4} - \frac43(0)^{3/4})$
+
+- $\frac{32}3 - 0 = \frac{32}3$
+
+**Answer:**
+
+- $\int_{0}^{16}\frac{1}{^4\sqrt{x}}\space dx \space \textrm{converges to }\frac{32}3$
+
+---
+
+### 16. $\int_{0}^{2}\frac{1}{\sqrt{2-x}}\space dx$
+
+- $\int (2-x)^{-1/2} dx$
+- $u = 2-x$
+- $du = -1$
+- $-\int (u)^{-1/2} dx$
+- $F(x) = -(2-x)^{1/2} +C$
+
+- $\lim\limits_{b\to0}[\frac{1}{\sqrt{2-x}}]\Big|_{0}^{2}$
+
+- $\lim\limits_{b\to0}(-(2-(2))^{1/2} +(2-(0))^{1/2})$
+
+- $0 + \sqrt{2} = \sqrt{2}$
+
+**Answer:**
+
+- $\int_{0}^{2}\frac{1}{\sqrt{2-x}}\space dx \space \textrm{converges to }\sqrt{2}$
+
+---
+
+### 18. $\int_{0}^{2}\frac{3x^2}{\sqrt{8-x^3}}\space dx$
+
+- $u = 8-x^3$
+- $du = 3x^2$
+- $\int (u)^{-1/2} du$
+- $F(x) = -(8-x^3)^{1/2} +C$
+
+- $\lim\limits_{b\to0}[\frac{3x^2}{\sqrt{8-x^3}}]\Big|_{0}^{2}$
+
+- $\lim\limits_{b\to0}(-(8-(2)^3)^{1/2} + (8-(0)^3)^{1/2})$
+
+- $0 + \sqrt{8} = \sqrt{8}$
+
+**Answer:**
+
+- $\int_{0}^{2}\frac{3x^2}{\sqrt{8-x^3}}\space dx \space \textrm{converges to }\sqrt{8}$
+
+---
+
+### 21. $\int_{0}^{\frac\pi2}\tan(x)\space dx$
+
+- $\textrm{domain error}$
+
+**Answer:**
+
+- $\int_{0}^{\frac\pi2}\tan(x)\space dx \space \textrm{diverges}$
+
+---
+
+### 22. Trumpet with $f(x)=\frac1x ; x> 1$
+
+- $\int \frac1x$
+- $F(x) = \ln(x)$
+- $V = \pi[\ln(C) - \ln(1)]^2$
+
+**Answer:**
+
+- $\textrm{Volumes is not finite thus contridictory}$
 
 ---
