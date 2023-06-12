@@ -53,6 +53,26 @@ $\int udv=uv-\int vdu$
 
 ### 4. Write and evaluate two integrals that require partial fraction decomposition. You may copy problems from the Section 8.4 Problems or create your own problems.
 
+- $\frac{7x+2}{x(x+1)}$
+
+  - $7x+2=A(x+1)+Bx$
+  - $7(0)+2=A(1)+B(0)$
+  - $A=2$
+  - $7(-1)+2=A(-1+1)+B(-1)$
+  - $B=5$
+  - $f(x)=\frac2x + \frac5{x+1}$
+
+- $\frac{7x+9}{(x+3)(x-1)}$
+  - $7x+9 = A(x-1) + B(x+3)$
+  - $7(-3)+9 = A(-4) + B(0)$
+  - $A=3$
+  - $7(1)+9 = A(0) + B(4)$
+  - $B=4$
+
 ---
 
 ### 5. When faced with an integral on the final exam, explain how you will decide with integration technique (basic antiderivative rules, u-substitution, integration by parts, or partial fraction decomposition) to use to evaluate the integral.
+
+If I see that the problem looks to be resultant from a chain rule derivative I will try
+u-substitution, if not and it has two things multiplied together I will try integration by parts,
+lastly if it is a fraction I will try fraction decomposition.
